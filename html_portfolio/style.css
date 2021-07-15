@@ -1,0 +1,79 @@
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("imge.jpg");
+    margin: 0px;
+}
+#container{
+    box-shadow: -3px 5px 5px 6px rgba(0, 0, 0, 0.6);    
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    background-image: url("imge.jpg");
+    width: 80%;
+    margin: 3% 10% 5% 10%;
+    color: white;
+    font-family: 'Times New Roman',Georgia, Times, serif;
+}
+#section{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.1%;
+    word-wrap: break-word;
+}
+#nom{
+    color: saddlebrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon{
+    vertical-align:baseline;
+}
+#profil{
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+}
+#article{
+    text-align: center;    
+    width: 40%;
+    height: 40%;
+    margin: 5% 30% 5% 30% ;
+    
+}
+#parcours,#contact{
+    height: 50%;
+    font-size: small;
+    border-top: 1px dashed rgba(255, 255, 255, 0.5);
+}
+#parcours{
+    font-size: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 10% 5% 10%;
+    padding: 2%;
+    width: 80%;
+    border-top: none;
+}
+.part{
+    width: 50%;
+}
+h5{
+    text-align: center;
+    color: rgb(199, 134, 3);
+    font-size: 1.2em;
+}
+#parcours ul{
+    list-style-type: none;
+}
+#contact{
+    margin: 4% 30% 4% 30% ;
+}
+#contact h4{
+    text-align: center;   
+    font-size: 1.2em;
+}
+#contact ul{ 
+    list-style-type: none;
+    margin: 0.5% 15% 0.5% 15%;
+}
+
+
+
